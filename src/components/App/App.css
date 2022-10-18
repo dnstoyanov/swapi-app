@@ -1,0 +1,63 @@
+.menu {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu ul li {
+  display: inline;
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: aliceblue;
+  background-color: #3887ff;
+  padding: 0.75rem 3rem;
+  margin-right: 0.5rem;
+}
+
+
+.menu a:focus {
+  outline: none;
+}
+
+.menu a:hover {
+  background-color: #05419b;
+  border: none;
+}
+
+
+section {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 40rem;
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  background: #004dc0;
+  border: none;
+  color: white;
+  padding: 0.75rem 3rem;
+  margin-right: 0.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #3887ff;
+  border: none;
+}
